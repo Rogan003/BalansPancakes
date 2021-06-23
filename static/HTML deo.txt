@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="balansstilovi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Balans palacinke</title>
+</head>
+<body data-spy="scroll" data-offset="20">
+    <div class="conteiner" id="glavno">
+        <header class="container">
+            <a href="balanspalacinke.html"><img src="logo1.jfif" alt="Logo balansa" class="rounded-circle img-responsive" style="width:20%"></a>
+            <h1>Balans palacinke</h1>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <a href="#glavno" class="navbar-brand">Pocetna stranica</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <a href="#onama"><li>O nama</li></a>
+                    <a href="#ponuda"><li>Ponuda</li></a>
+                    <a href="#prodaja"><li>Prodaja</li></a>
+                </ul>
+            </nav>
+            <button data-toggle="collapse" data-target="#slideshow" class="btn btn-primary">Prikazi/Sakrij</button>
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators black">
+                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideshow" data-slide-to="1"></li>
+                    <li data-target="#slideshow" data-slide-to="2"></li>
+                    <li data-target="#slideshow" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="cinke.jpg" alt="Palacinke" class="img-responsive">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cinka2.jfif" alt="Palacinke" class="img-responsive">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="izgled.jfif" alt="Izgled" class="img-responsive">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="dostava.jfif" alt="Dostava" class="img-responsive">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#slideshow" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#slideshow" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </header>
+        <hr>
+        <div class="container" id="onama">
+            <div class="container" id="onamap">
+                <h3>O nama</h3>
+                Zdravo! Mi smo palacinkarnica koja se nalazi u Novom Sadu u blizini futoske pijace!
+                <br>
+                Imamo fantasticne i <b>veoma jeftine</b> palacinke!
+                <br>
+                Dodjite i posetite nas!
+            </div>
+            <div class="container slikeus">
+                <img src="balansnesto.jpg" alt="Fisek za palacinke" class="img-responsive">
+            </div>
+        </div>
+        <hr>
+        <div class="conteiner table-responsive" id="ponuda">
+            <h3>Ponuda</h3>
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>Redni broj</th>
+                    <th>Palacinka</th>
+                    <th>Cena</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Svarcvald</td>
+                    <td>190</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Plazma u mleku</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Banana&plazma</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Banana&Jagoda</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Nutella&Plazma</td>
+                    <td>195</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Rafaello</td>
+                    <td>220</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Hawaii</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Cheesecake</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Vanilla Sky</td>
+                    <td>170</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="container table-responsive" id="prodaja">
+            <h3>Prodaja</h3>
+            <table class="table table-striped table-bordered" id="tabela">
+                <tr>
+                    <th>Godina</th>
+                    <th>Broj palacinaka</th>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>22.200</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>43.800</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>63.072</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>77.964</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>105.120</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>134.028</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <footer>
+            <b>Posetite nas!</b>
+            <img src="smajli.png" alt="Smajli" id="smajli" class="img-responsive">
+            <span style="position: relative; left: 10%;">
+            Napravio: Veselin Roganovic ~ Sva prava zadrzana ~ Balans palacinke ~ Novi Sad 2020
+        </span>
+        </footer>
+    </div>
+</body>
+</html>
