@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'balanspalacinke',
         'USER': 'root',
-        'PASSWORD': 'malivesa003',
+        'PASSWORD': 'blabla',
         'HOST': 'localhost',
     }
 }
